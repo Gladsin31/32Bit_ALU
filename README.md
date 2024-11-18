@@ -183,7 +183,6 @@ After elaboration the file will come under snapshot. Select the test bench and s
 
 ![IMG-20241118-WA0060](https://github.com/user-attachments/assets/82952cf2-cc82-4da7-ad47-e5a5b8132689)
 
-
 ## Step 3: Simulation: 
 
 – Simulate with the given test vectors over a period of time to observe the output behaviour. 
@@ -200,11 +199,9 @@ Steps for simulation – Run the simulation command with simulator options
 
 ![IMG-20241118-WA0055](https://github.com/user-attachments/assets/cf814611-dbdf-4c9e-9c83-29b6e73c18fa)
 
-
 ## Fig 10:Simulation Waveform Window
 
 ![IMG-20241118-WA0052](https://github.com/user-attachments/assets/4bc21bd9-71fa-4525-80a5-56d813a6596c)
-
 
 ## Fig 11:Simulation Waveform Window
 
