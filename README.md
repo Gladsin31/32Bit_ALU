@@ -16,6 +16,7 @@ The ALU will take in two 32-bit values, and control line. An Arithmetic unit doe
 
 ![image](https://github.com/user-attachments/assets/e574788c-253f-46da-8468-298fe2844f7a)
 
+
 ### Fig 1 : Block Diagram of 32 Bit ALU 
 
 ## Creating a Work space :
@@ -60,6 +61,7 @@ source /cadence/install/cshrc (mention the path of the tools)
       
 After this you can see the window like below 
 
+
 ![IMG-20241118-WA0057](https://github.com/user-attachments/assets/32864701-46cb-4564-aec7-903e2be5094d)
 
 
@@ -76,6 +78,7 @@ or
 
 It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
 
+
 ![IMG-20241118-WA0061](https://github.com/user-attachments/assets/6bd279bb-71db-461d-b09b-e908e9db6eaa)
 
 
@@ -84,6 +87,7 @@ It will invoke the nclaunch window for functional simulation we can compile,elab
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure 
 
 Click the cds.lib file and save the file by clicking on Save option 
+
 
 ![IMG-20241118-WA0058](https://github.com/user-attachments/assets/6e77888f-a9d2-400f-be39-1e874d88675a)
 
@@ -97,6 +101,7 @@ Select “Don’t include any libraries (verilog design)” from “New cds.lib 
 We are simulating verilog design without using any libraries 
 
 A Click “OK” in the “nclaunch: Open Design Directory” window as shown in below figure 
+
 
 ![IMG-20241118-WA0062](https://github.com/user-attachments/assets/bdee7ebe-b51a-4c1a-a01f-c863ccd34f9e)
 
@@ -113,7 +118,9 @@ To perform the function simulation, the following three steps are involved Compi
 
 ### Fig 6: Nclaunch Window
 
+
 ![IMG-20241118-WA0054](https://github.com/user-attachments/assets/285dba24-032f-415f-8d76-14f2466f9a5e)
+
 
 ## Step 1: Compilation:
 
@@ -137,6 +144,7 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 Left side select the file and in Tools : launch verilog compiler with current selection will get enable. Click it to compile the code 
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation 
+
 
 ![IMG-20241118-WA0053](https://github.com/user-attachments/assets/5797fc0e-4fdf-4db6-a4ff-360054782f14)
 
@@ -197,31 +205,17 @@ Steps for simulation – Run the simulation command with simulator options
 
 ## Fig 9: Design Browser window for simulation
 
+
 ![IMG-20241118-WA0055](https://github.com/user-attachments/assets/cf814611-dbdf-4c9e-9c83-29b6e73c18fa)
+
 
 ## Fig 10:Simulation Waveform Window
 
+
 ![IMG-20241118-WA0052](https://github.com/user-attachments/assets/4bc21bd9-71fa-4525-80a5-56d813a6596c)
 
+
 ## Fig 11:Simulation Waveform Window
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
